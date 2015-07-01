@@ -13,6 +13,11 @@
 		001D700C1B435E5000416F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001D700B1B435E5000416F1A /* Images.xcassets */; };
 		001D700F1B435E5000416F1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001D700D1B435E5000416F1A /* LaunchScreen.xib */; };
 		001D701B1B435E5000416F1A /* RosterClass_Table_ScratchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D701A1B435E5000416F1A /* RosterClass_Table_ScratchTests.swift */; };
+		001D70251B4362DA00416F1A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D70241B4362DA00416F1A /* Person.swift */; };
+		004E2D7A1B438584006431F4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E2D791B438584006431F4 /* DetailViewController.swift */; };
+		004E2D7C1B438D01006431F4 /* seattle_night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004E2D7B1B438D01006431F4 /* seattle_night.jpg */; };
+		005E2AF61B43D1DE00CCAB8F /* Peeps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 005E2AF51B43D1DE00CCAB8F /* Peeps.plist */; };
+		00B6385F1B43A213000CF5FE /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6385E1B43A213000CF5FE /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		001D70141B435E5000416F1A /* RosterClass_Table_ScratchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosterClass_Table_ScratchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		001D70191B435E5000416F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		001D701A1B435E5000416F1A /* RosterClass_Table_ScratchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterClass_Table_ScratchTests.swift; sourceTree = "<group>"; };
+		001D70241B4362DA00416F1A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		004E2D791B438584006431F4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		004E2D7B1B438D01006431F4 /* seattle_night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seattle_night.jpg; sourceTree = "<group>"; };
+		005E2AF51B43D1DE00CCAB8F /* Peeps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Peeps.plist; sourceTree = "<group>"; };
+		00B6385E1B43A213000CF5FE /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +89,11 @@
 			children = (
 				001D70041B435E4F00416F1A /* AppDelegate.swift */,
 				001D70061B435E4F00416F1A /* ViewController.swift */,
+				00B6385E1B43A213000CF5FE /* CustomCell.swift */,
+				001D70241B4362DA00416F1A /* Person.swift */,
 				001D70081B435E4F00416F1A /* Main.storyboard */,
+				004E2D7B1B438D01006431F4 /* seattle_night.jpg */,
+				004E2D791B438584006431F4 /* DetailViewController.swift */,
 				001D700B1B435E5000416F1A /* Images.xcassets */,
 				001D700D1B435E5000416F1A /* LaunchScreen.xib */,
 				001D70021B435E4E00416F1A /* Supporting Files */,
@@ -91,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				001D70031B435E4E00416F1A /* Info.plist */,
+				005E2AF51B43D1DE00CCAB8F /* Peeps.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,9 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005E2AF61B43D1DE00CCAB8F /* Peeps.plist in Resources */,
 				001D700A1B435E4F00416F1A /* Main.storyboard in Resources */,
 				001D700F1B435E5000416F1A /* LaunchScreen.xib in Resources */,
 				001D700C1B435E5000416F1A /* Images.xcassets in Resources */,
+				004E2D7C1B438D01006431F4 /* seattle_night.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001D70251B4362DA00416F1A /* Person.swift in Sources */,
 				001D70071B435E4F00416F1A /* ViewController.swift in Sources */,
+				00B6385F1B43A213000CF5FE /* CustomCell.swift in Sources */,
 				001D70051B435E4F00416F1A /* AppDelegate.swift in Sources */,
+				004E2D7A1B438584006431F4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,7 @@
 				001D70201B435E5000416F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		001D70211B435E5000416F1A /* Build configuration list for PBXNativeTarget "RosterClass_Table_ScratchTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				001D70231B435E5000416F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

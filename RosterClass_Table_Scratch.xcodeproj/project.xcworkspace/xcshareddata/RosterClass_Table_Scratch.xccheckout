@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF96D166-2B5C-4DEA-93F7-ACA1450C3511</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>406616F7BF244A77AA89F31547E55E7FAFB91ECC</key>
+		<string>github.com:Mick26Soum/RosterClass_new.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RosterClass_Table_Scratch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>406616F7BF244A77AA89F31547E55E7FAFB91ECC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Mick26Soum/RosterClass_new.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>406616F7BF244A77AA89F31547E55E7FAFB91ECC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>406616F7BF244A77AA89F31547E55E7FAFB91ECC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RosterClass_Table_Scratch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
